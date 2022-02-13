@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/alfat/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_baseline_call_24_black.xml" value="0.32421875" />
+        <entry key="..\:/Users/alfat/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_baseline_email_24_black.xml" value="0.32421875" />
+        <entry key="..\:/Users/alfat/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_baseline_error_outline_24.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/alfat/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_baseline_hourglass_empty_24.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/alfat/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_baseline_location_on_24_black.xml" value="0.32421875" />
+        <entry key="..\:/Users/alfat/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/alfat/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_baseline_search_cr_24.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/alfat/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_baseline_search_off_24.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/alfat/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_boking.xml" value="0.22" />
+        <entry key="..\:/Users/alfat/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_daftar.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/alfat/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_detail_mobil.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/alfat/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_detail_riwayat.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/alfat/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_detail_transaksi.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/alfat/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_edit_profile.xml" value="0.2" />
+        <entry key="..\:/Users/alfat/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_login.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/alfat/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_pesanan.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/alfat/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_profil_image.xml" value="0.2" />
+        <entry key="..\:/Users/alfat/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_setting.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/alfat/AndroidStudioProjects/MyApplication/app/src/main/res/layout/bg_cari.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/alfat/AndroidStudioProjects/MyApplication/app/src/main/res/layout/empty.xml" value="0.22" />
+        <entry key="..\:/Users/alfat/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_akun.xml" value="0.22" />
+        <entry key="..\:/Users/alfat/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_baru.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/alfat/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_home.xml" value="0.6666666666666666" />
+        <entry key="..\:/Users/alfat/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_pesanan.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/alfat/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_riwayat.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/alfat/AndroidStudioProjects/MyApplication/app/src/main/res/layout/gagal_cari.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/alfat/AndroidStudioProjects/MyApplication/app/src/main/res/layout/list_mobil.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/alfat/AndroidStudioProjects/MyApplication/app/src/main/res/layout/list_pembayaran.xml" value="0.6666666666666666" />
+        <entry key="..\:/Users/alfat/AndroidStudioProjects/MyApplication/app/src/main/res/layout/list_pesanan.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/alfat/AndroidStudioProjects/MyApplication/app/src/main/res/layout/list_riwayat.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/alfat/AndroidStudioProjects/MyApplication/app/src/main/res/layout/sambungan_gagal.xml" value="0.1" />
+        <entry key="..\:/Users/alfat/AndroidStudioProjects/MyApplication/app/src/main/res/mipmap-anydpi-v26/ic_asset3_round.xml" value="0.10989583333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

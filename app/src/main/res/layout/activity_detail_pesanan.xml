@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.DetailPesananActivity">
+    <include
+        android:id="@+id/dp"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <androidx.core.widget.NestedScrollView
+        android:layout_below="@+id/dp"
+        android:layout_above="@+id/ll"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+        <LinearLayout
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="110dp">
+                <ImageView
+                    android:id="@+id/iv_bayar"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/tv_noRek"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="55dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No.Rek"/>
+                <TextView
+                    android:layout_marginTop="40dp"
+                    android:id="@+id/tv_spiner"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:padding="20dp"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorsoftBlack"
+                    android:letterSpacing="0.1"
+                    android:textAlignment="center"
+                    android:text="1234758920029874"/>
+            </RelativeLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Spinner
+                    android:textAlignment="center"
+                    android:id="@+id/spiner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorGrey"/>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:paddingLeft="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Detail mobil"
+                    android:textColor="@color/ColorBlack"
+                    android:textSize="16dp"/>
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/iv_mobil"
+                        android:layout_gravity="center"
+                        android:layout_width="100dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/brio"/>
+                    <LinearLayout
+                        android:layout_marginLeft="20dp"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/ColorBlack"
+                            android:text="Model mobil  "/>
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/ColorBlack"
+                            android:text="Transmisi  "/>
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/ColorBlack"
+                            android:text="No Kendaraan  "/>
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/ColorBlack"
+                            android:text="Kapasitas "/>
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/ColorBlack"
+                            android:text="Harga sewa "/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/ColorBlack"
+                            android:text=": "/>
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/ColorBlack"
+                            android:text=": "/>
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/ColorBlack"
+                            android:text=": "/>
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/ColorBlack"
+                            android:text=": "/>
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/ColorBlack"
+                            android:text=": "/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/tv_mobil"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Honda Brio"
+                            android:textColor="@color/bg_btn_color"/>
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:id="@+id/tv_trans"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Manual"
+                            android:textColor="@color/bg_btn_color"/>
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:id="@+id/tv_noPol"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="AB 6718 CB"
+                            android:textColor="@color/bg_btn_color"/>
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:id="@+id/tv_kap"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="6 orang"
+                            android:textColor="@color/bg_btn_color"/>
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:id="@+id/tv_hg_sewa"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="6 orang"
+                            android:textColor="@color/bg_btn_color"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorGrey"/>
+            <RelativeLayout
+                android:layout_marginHorizontal="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tanggal Sewa  "
+                        android:textColor="@color/ColorBlack" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Tanggal Kembali  "
+                        android:textColor="@color/ColorBlack" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Total bayar  "
+                        android:textColor="@color/ColorBlack" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginLeft="115dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/ColorBlack"
+                        android:text=": "/>
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/ColorBlack"
+                        android:text=": "/>
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/ColorBlack"
+                        android:text=": "/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginLeft="130dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:id="@+id/tv_tglPesan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/bg_btn_color"
+                        android:text="20 Mei 2021"/>
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/tv_tglKembali"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/bg_btn_color"
+                        android:text="22 Mei 2021"/>
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/tv_totalBayar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/bg_btn_color"
+                        android:text="200000"/>
+                </LinearLayout>
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorGrey"/>
+            <LinearLayout
+                android:layout_marginHorizontal="15dp"
+                android:orientation="vertical"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/ColorRed"
+                    android:text="Catatan : "/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/ColorBlack"
+                    android:text="Penyewa harus datang ke tempat penyewaan untuk mengambil dan mengembalikan mobil"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorGrey"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <LinearLayout
+        android:paddingHorizontal="5dp"
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_pesan"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:backgroundTint="@color/colorStatusBar"
+            android:text="Buat Pesanan"
+            android:textAllCaps="false" />
+    </LinearLayout>
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/progres_bar"
+        android:layout_centerInParent="true"
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
+
+</RelativeLayout>

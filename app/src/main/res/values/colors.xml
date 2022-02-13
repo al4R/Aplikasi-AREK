@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#0364DA</color>
+    <color name="bg_btn_color">#279CDE</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="ColorRed">#E15656</color>
+    <color name="ColorBlack">#1E1E1E</color>
+    <color name="colorGrey">#C5C5C5</color>
+    <color name="colorNavBg">#1883E5</color>
+    <color name="colorNavItem">#1E668F</color>
+    <color name="colorStatusBar">#1374AA</color>
+    <color name="colorsoftBlack">#3C3F41</color>
+    <color name="textbtn">#272727</color>
+    <color name="iconbtn">#8C8C8C</color>
+    <color name="green">#2FD809</color>
+    <color name="Kuning">#EFD658</color>
+
+</resources>

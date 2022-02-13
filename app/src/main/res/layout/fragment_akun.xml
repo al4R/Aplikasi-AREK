@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorWhite"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.AkunFragment">
+    <LinearLayout
+        android:id="@+id/ll"
+        android:padding="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@color/bg_btn_color"
+        android:layout_width="match_parent"
+        android:layout_height="57dp">
+        <TextView
+            android:textSize="18dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textColor="@color/colorWhite"
+            android:text="Profile"/>
+
+    </LinearLayout>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_marginTop="30dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/pilih_gmbr"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/ic_baseline_person_24"/>
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:src="@drawable/ic_baseline_create_24" />
+                </RelativeLayout>
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp">
+                    <TextView
+                        android:textColor="@color/ColorBlack"
+                        android:gravity="center"
+                        android:id="@+id/tv_nama"
+                        android:textSize="16dp"
+                        android:text="Nama User"
+                        android:layout_width="280dp"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:paddingRight="5dp"
+                        android:layout_width="0dp"
+                        android:layout_height="20dp"
+                        android:layout_weight="1">
+                        <TextView
+                            android:gravity="right"
+                            android:id="@+id/tv_email"
+                            android:textSize="12dp"
+                            android:text="Email User"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:paddingLeft="5dp"
+                        android:layout_width="0dp"
+                        android:layout_height="20dp"
+                        android:layout_weight="1">
+                        <TextView
+                            android:gravity="left"
+                            android:id="@+id/tv_telepon"
+                            android:textSize="12dp"
+                            android:text="Telepon User"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#4A505050"/>
+            </LinearLayout>
+            <LinearLayout
+                android:padding="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:paddingBottom="10dp">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_editProfile"
+                    app:icon="@drawable/ic_baseline_person_24"
+                    app:iconTint="@color/iconbtn"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="250dp"
+                    android:layout_height="55dp"
+                    android:textAlignment="viewStart"
+                    android:text="Ubah profile"
+                    android:fontFamily="@font/font_roboto"
+                    android:textAllCaps="false"
+                    android:textColor="@color/textbtn"
+                    android:backgroundTint="@color/colorWhite"
+                    app:strokeColor="#939393"
+                    android:letterSpacing="0.01"/>
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_edt_pass"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="250dp"
+                    android:layout_height="55dp"
+                    android:textAlignment="viewStart"
+                    android:text="Ubah kata sandi"
+                    android:fontFamily="@font/font_roboto"
+                    android:textAllCaps="false"
+                    app:icon="@drawable/ic_baseline_person_24"
+                    app:iconTint="@color/iconbtn"
+                    android:textColor="@color/textbtn"
+                    android:backgroundTint="@color/colorWhite"
+                    app:strokeColor="#939393"
+                    android:letterSpacing="0.01"/>
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/tenang_kami"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="250dp"
+                    android:layout_height="55dp"
+                    android:textAlignment="viewStart"
+                    android:text="Tentang Kami ?"
+                    android:fontFamily="@font/font_roboto"
+                    android:textAllCaps="false"
+                    app:icon="@drawable/ic_baseline_group_24"
+                    app:iconTint="@color/iconbtn"
+                    android:textColor="@color/textbtn"
+                    android:backgroundTint="@color/colorWhite"
+                    app:strokeColor="#939393"
+                    android:letterSpacing="0.01"/>
+                <com.google.android.material.button.MaterialButton
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    app:strokeColor="@color/ColorRed"
+                    app:strokeWidth="2dp"
+                    android:textAllCaps="false"
+                    android:id="@+id/btn_logout"
+                    android:text="Keluar"
+                    android:textColor="@color/colorWhite"
+                    android:backgroundTint="@color/ColorRed"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/font_roboto"
+                    android:letterSpacing="0.01"
+                    android:layout_width="250dp"
+                    android:layout_height="55dp"
+                    />
+                <TextView
+                    android:layout_marginBottom="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="version 1.0"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/list_nama"-->
+<!--        android:orientation="vertical"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+<!--            <TextView-->
+<!--                android:id="@+id/tv_naqma"-->
+<!--                android:textSize="14dp"-->
+<!--                android:text="Nama User"-->
+<!--                android:layout_width="280dp"-->
+<!--                android:layout_height="wrap_content"/>-->
+<!--            -->
+<!--            <TextView-->
+<!--                android:id="@+id/tv_eamail"-->
+<!--                android:textSize="14dp"-->
+<!--                android:text="Email User"-->
+<!--                android:layout_width="280dp"-->
+<!--                android:layout_height="wrap_content"/>-->
+<!--            -->
+<!--            <TextView-->
+<!--                android:id="@+id/tv_stelepon"-->
+<!--                android:textSize="14dp"-->
+<!--                android:text="Telepon User"-->
+<!--                android:layout_width="280dp"-->
+<!--                android:layout_height="wrap_content"/>-->
+
+<!--        -->
+<!--    </LinearLayout>-->
+
+</LinearLayout>
